@@ -3,7 +3,30 @@ entries:
   msa-platform:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-07-02T22:51:40.87756423+09:00"
+    created: "2026-07-03T00:12:33.106016234+09:00"
+    dependencies:
+    - condition: index-app.enabled
+      name: index-app
+      repository: file://charts/index
+      version: 0.1.1
+    - condition: market-app.enabled
+      name: market-app
+      repository: file://charts/market
+      version: 0.1.1
+    - condition: psot-app.enabled
+      name: post-app
+      repository: file://charts/post
+      version: 0.1.1
+    description: index + market + post
+    digest: 4e5a71434a48b5b3323ccda025b1f0f99ded994a13e35126163b640bc21c2235
+    name: msa-platform
+    type: application
+    urls:
+    - https://ShinJunhan.github.io/helm-microservice/msa-platform-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-07-03T00:12:33.104417106+09:00"
     dependencies:
     - condition: index-app.enabled
       name: index-app
@@ -24,4 +47,4 @@ entries:
     urls:
     - https://ShinJunhan.github.io/helm-microservice/msa-platform-0.1.0.tgz
     version: 0.1.0
-generated: "2026-07-02T22:51:40.876251174+09:00"
+generated: "2026-07-03T00:12:33.103249064+09:00"

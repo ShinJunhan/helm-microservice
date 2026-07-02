@@ -3,5 +3,5 @@ apiVersion: v2
 name: post-app
 description: post fastapi service
 type: application
-version: 0.1.0
+version: 0.1.1  # chart 가 수정 되었으므로 chart 의 버전을 올려준다
 appVersion: "1.0.0"
