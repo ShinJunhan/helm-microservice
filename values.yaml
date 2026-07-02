@@ -13,7 +13,7 @@ index-app:
 market-app:
   replicaCount: 2
   image:
-    tag: "1.0"
+    tag: "1.1"
   service:
     port: 8000
   containerPort: 8000
@@ -22,7 +22,7 @@ market-app:
 post-app:
   replicaCount: 2
   image:
-    tag: "1.0"
+    tag: "1.1"
   service:
     port: 8000
   containerPort: 8000
